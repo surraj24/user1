@@ -36,9 +36,9 @@ def makeWebhookResult(req):
     pass1 = parameters.get("password")
     cost = {'Suraj':100, 'Shubham':200, 'Raju':300, 'Yash':400, 'Ravi':500}
     if(str(cost[id1])==pass1):
-        speech = id1 + ". You are Suceesfully login. Do you have any problem with our product."
+        speech = id1 + ". You are Suceesfully login. How can I help you."
     else:
-        speech = "Wrong credential"
+        speech = "Incorrect password."
     
     print("Response:")
     print(speech)
